@@ -36,7 +36,7 @@ dev = ['twine', 'setuptools']
 "Bug Tracker" = "https://github.com/matmair/inventree-kicad/issues"
 
 [project.entry-points."inventree_plugins"]
-inventree-kicad = "inventree-kicad:KicadPlugin"
+inventree-kicad = "inventree_kicad:KicadPlugin.KicadPlugin"
 
 [tool.setuptools.packages.find]
 where = ["src"]
